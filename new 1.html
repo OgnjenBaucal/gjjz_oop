@@ -6,12 +6,22 @@
         <meta charset = "UTF8">
         <title>Pekara</title>
 		<link href="main.css" rel="stylesheet">
+		<script src = "main.js"></script>
+		<script>
+			myTest();
+		</script>
     </head>
 
     <body>
         <h1>Ognjenova pekara</h1>
 		<h2>Zdravo i ukusno</h2>
 		
+		<p>Date/Time: <span id="datetime"></span></p>
+		<script>
+            var dt = new Date();
+            document.getElementById("datetime").innerHTML = dt.toLocaleTimeString();
+		</script> 
+
 		<h4>
             Otvoreno:
         </h4>
